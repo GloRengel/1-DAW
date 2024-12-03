@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 1
+    </title>
+</head>
+<body>
+    <h1 id="h1">
+        Mi primera foto 125cc
+    </h1>
+
+    <p id="parrafo">
+        No necesitas esperar un taxi ni llegar tarde por los retrasos del transporte público:<br>
+        con la PCX125, solo tienes que pulsar el botón de arranque. El chasis compacto y ágil <br>
+        te permitirá evadirte del tráfico urbano con facilidad y llegar a todas partes a tiempo <br>
+        y con estilo. 
+
+    </p>
+
+    <button type="button" onclick="" id="boton1">
+    Sorpresa!</button> 
+    <br> 
+    <br>
+    <br>
+
+    <button type="button" onclick="" id="boton2">
+        Sorpresa 2!</button>
+    
+    
+    <script>
+        const boton1 = document.getElementById('boton1');
+        const h1 = document.getElementById('h1');
+
+        boton1.addEventListener('click', () => {
+            h1.style.color = 'red';
+        })
+
+
+        const boton2 = document.getElementById('boton2');
+        const parrafo = document.getElementById('parrafo');
+
+        boton2.addEventListener('click', () => {
+            parrafo.style.fontWeight = 'bold';
+        })
+    </script>
+</body>
+</html>

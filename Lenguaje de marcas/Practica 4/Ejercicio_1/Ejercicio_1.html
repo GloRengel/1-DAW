@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="Ejercicio_1.css">
+    <title>Nueva Incidencia</title>
+</head>
+<body>
+    <header>
+        <img src="/Ejercicio_1/ejercicio1/logo.jpg" alt="Logo del C.P.I.F.P. Alan Turing" class="logo">
+        <h1>Nueva Incidencia</h1>
+    </header>
+
+    <form action="procesarincidencia.php" method="post" class="formulario">
+        <label for="profesor">Profesor:</label>
+        <input type="text" id="profesor" name="profesor" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento" name="departamento" required>
+
+        <label for="aula">Aula:</label>
+        <input type="number" id="aula" name="aula" required>
+
+        <label for="dia">Día:</label>
+        <input type="date" id="dia" name="dia" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="descripcion" class="descripcion-label">Descripción de la incidencia:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+
+        <label for="imagen">Imagen de la incidencia (opcional):</label>
+        <input type="file" id="imagen" name="imagen">
+
+        <div class="botones">
+            <button type="submit">Enviar Incidencia</button>
+            <button type="reset">Resetear</button>
+        </div>
+    </form>
+
+    <footer>
+        <h3>Redes Sociales</h3>
+        <div class="redes">
+            <a href="https://facebook.com/centro" target="_blank">
+                <img src="/Ejercicio_1/ejercicio1/facebook.png" alt="Facebook del centro" class="icono">
+            </a>
+            <a href="https://twitter.com/centro" target="_blank">
+                <img src="/Ejercicio_1/ejercicio1/twitter.png" alt="Twitter del centro" class="icono">
+            </a>
+            <a href="https://instagram.com/centro" target="_blank">
+                <img src="/Ejercicio_1/ejercicio1/instagram.png" alt="Instagram del centro" class="icono">
+            </a>
+            <a href="https://youtube.com/centro" target="_blank">
+                <img src="/Ejercicio_1/ejercicio1/youtube.png" alt="Canal de YouTube del centro" class="icono">
+            </a>
+            <a href="https://www.centro.com" target="_blank">
+                <img src="/Ejercicio_1/ejercicio1/website.png" alt="Página web del centro" class="icono">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

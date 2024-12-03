@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="Ejercicio_3.css">
+    <title>Reproducción de Video</title>
+</head>
+<body>
+    <h1>Reproducción de Video de Bill Gates</h1>
+
+    <div class="video-container">
+        <h2>Reproducción Automática (sin sonido)</h2>
+        <video width="400" autoplay muted poster="imagen1.jpg">
+            <source src="billgates.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h2>Reproducción con Controles (con sonido)</h2>
+        <video width="400" controls poster="imagen1.jpg">
+            <source src="billgates.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+
+</body>
+</html>
